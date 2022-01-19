@@ -1,0 +1,328 @@
+/*
+  Autor: Marcos Henrique F. Marcone 
+  Driven Turma 5 Grupo 6.
+
+  Projeto Globo
+*/
+
+/* Configurações gerais */
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* Configurando a logo globo.com*/
+.logo-globo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-globo img {
+  width: 171px;
+  height: 36px;
+}
+
+/* Configurando o menu dos sites do grupo globo */
+
+.menu-sites {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bordas {
+  border-style: solid none solid none;
+  border-width: 1px;
+  border-color: #f5f6f7;
+  display: flex;
+  justify-content: center;
+}
+
+.g1 {
+  width: 40px;
+  height: 40px;
+}
+
+.g1 a {
+  color: #c3170c;
+  font-weight: bold;
+}
+
+.o-globo {
+  width: 89px;
+  height: 40px;
+}
+
+.o-globo a {
+  color: #1e4b9b;
+  font-weight: bold;
+}
+
+.valor {
+  width: 70px;
+  height: 40px;
+}
+
+.valor a {
+  color: #006766;
+  font-weight: bold;
+}
+
+.ge {
+  width: 45px;
+  height: 40px;
+}
+
+.ge a {
+  color: #07aa47;
+  font-weight: bold;
+}
+
+.cartola {
+  width: 86px;
+  height: 40px;
+}
+
+.cartola a {
+  color: #e3662b;
+  font-weight: bold;
+}
+
+.globoplay {
+  width: 113px;
+  height: 40px;
+}
+
+.globoplay a {
+  color: #fb0735;
+  font-weight: bold;
+}
+
+.dropz {
+  width: 75px;
+  height: 40px;
+}
+
+.dropz a {
+  color: #ff75bb;
+  font-weight: bold;
+}
+
+.gshow {
+  width: 84px;
+  height: 40px;
+}
+
+.gshow a {
+  color: #ec7d00;
+  font-weight: bold;
+}
+
+.quem {
+  width: 74px;
+  height: 40px;
+}
+
+.quem a {
+  color: #323333;
+  font-weight: bold;
+}
+
+.receitas {
+  width: 93px;
+  height: 40px;
+}
+
+.receitas a {
+  color: #a81d83;
+  font-weight: bold;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+}
+
+/* Painel de notícias*/
+.painel-noticias {
+  margin-top: 50px;
+  width: 1250px;
+  display: flex;
+}
+
+/*Painel esquerdo*/
+.painel-esquerdo {
+  width: 624px;
+  padding-right: 36px;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: #ebedef;
+}
+/* Materia Principal */
+.materia-principal {
+  width: 624px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ebedef;
+  padding-bottom: 30px;
+}
+
+.materia-principal h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  margin-bottom: 40px;
+}
+
+.materia-principal h2 {
+  font-size: 18px;
+  color: #303134;
+  margin-top: 10px;
+}
+
+/* Painel esquerdo: Matérias com imagens */
+.pe-materias-com-imagens {
+  margin-top: 30px;
+  display: flex;
+  width: 624px;
+  justify-content: space-between;
+  padding-bottom: 36px;
+  border-bottom: solid;
+  border-bottom-color: #ebedef;
+  border-bottom-width: 1px;
+}
+
+/* Painel esquerdo: Matéria com imagem */
+.pe-materia-com-imagem {
+  width: 193px;
+}
+.pe-materia-com-imagem img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+/* Painel esquerdo: Notícias sem Imagens */
+.pe-materias-sem-imagens {
+  margin-top: 25px;
+  display: flex;
+  width: 624px;
+  justify-content: space-between;
+}
+.pe-materia-sem-imagem {
+  width: 192px;
+}
+
+/* Configurações das notícias do painel esquerdo */
+.pe-noticia h4 {
+  font-size: 14px;
+  color: #c4170c;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.pe-noticia h3 {
+  font-size: 20px;
+  color: #2f3134;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.pe-noticia p {
+  font-size: 14px;
+  color: #2f3134;
+  margin-top: 15px;
+}
+
+/*Painel Central de Notícias */
+.painel-central {
+  width: 311px;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: #ebedef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Matérias do Painel Central */
+.pc-materia {
+  width: 240px;
+  margin-bottom: 50px;
+}
+
+.pc-materia img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.pc-materia h4 {
+  font-size: 14px;
+  color: #16ae54;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.pc-materia h3 {
+  font-size: 20px;
+  color: #2f3134;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.pc-materia p {
+  font-size: 14px;
+  color: #2f3134;
+  margin-top: 15px;
+}
+
+/* Matérias do Painel Direito */
+.painel-direito {
+  width: 311px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pd-materia {
+  width: 240px;
+  margin-bottom: 45px;
+}
+
+.pd-materia img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+.pd-materia h4 {
+  font-size: 14px;
+  color: #ec8006;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.pd-materia h3 {
+  font-size: 20px;
+  color: #2f3134;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.pd-materia p {
+  font-size: 14px;
+  color: #2f3134;
+  margin-top: 15px;
+}
